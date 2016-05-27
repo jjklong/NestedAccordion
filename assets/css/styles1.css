@@ -1,3 +1,4 @@
+/****MAIN PAGE CONTENT*/
 html{
   font: 100%;
 }
@@ -28,13 +29,21 @@ p{
   padding: 2em;
 }
 
+/*BIG HEADER*/
+
 .rightArrowblock{
   margin: 0;
-  padding: .3em;
+  padding-top: 1em;
+  padding-bottom: 1em;
   text-align: left;
   display: block;
   border-bottom: solid 1px #dddddd;
   position: relative;
+}
+
+.rightArrowblock:hover > .fa {
+  color: #47a3da;
+  transform: rotateZ(45deg);
 }
 
 h1.header1{
@@ -44,19 +53,51 @@ h1.header1{
   color: #47a3da;
 }
 
-h3.header3{
-  font-size: 1em;
-  color: #47a3da;
-  text-transform: uppercase;
-  font-weight: 600;
-  letter-spacing: .3em;
-}
+
 
 .oatCake{
   text-align: left;
 }
 
-i{
+.fa-2x{
   margin-right: .4em;
   color: #dddddd;
+}
+
+/*SMALL LIST WRAPPER*/
+.sublist1_wrapper{
+  position: relative;
+  margin-left: 2em;
+}
+
+/*SMALL BLOCKS*/
+.r_smallArrowblock{
+  margin: 0;
+  padding: 1em 1em 0 0;
+  text-align: left;
+  display: block;
+  position: relative;
+}
+
+.r_smallArrowblock:hover > .fa-lg{
+  color: #47a3da;
+  transform: rotateZ(45deg);
+}
+
+.fa-lg {
+  font-size: 1em;
+  padding: .05em .05em 0.2em .1em;
+  margin: 0 .5em 0 0;
+  color: #dddddd;
+  border: solid 2px;
+  border-radius: 50%
+}
+
+h3.header3{
+  display: inline-block;
+  font-size: 1em;
+  color: #47a3da;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: .3em;
 }

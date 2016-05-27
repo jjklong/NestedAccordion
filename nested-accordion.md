@@ -43,8 +43,8 @@ Click:
 ###What existing HTML elements are changed?
 * The HTML paragraph and sublist content becomes visible when header is clicked
 
-##What new HTML elements are created?
+###What new HTML elements are created?
 * The HTML elements should already exist in the HTML file, however, when the user interacts with the page via hover or mouse click, the content is revealed.
 
-##What CSS styles are used to produce the effect?
-* CSS could be used to change the icon with **().hover**, but could also be done in JS. 
+###What CSS styles are used to produce the effect?
+* CSS could be used to change the icon with **().hover**, but could also be done in JS.
