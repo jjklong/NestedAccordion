@@ -1,10 +1,28 @@
+//after making an array, trying to determine class name and add event listener to each item. when clicked, checks to see classname
+
+
+var headerList = document.getElementsByClassName('hide_list');
+headerList.addEventListener("click", function(event) {
+  if ()
+})
+
+
+// for (i=0; i < headerList.length; i++) {
+//   headerList[i].addEventListener('click',
+//     // var headerClick = document.getElementsByClassName('hide_list');
+//     var currentClass = this.className;                 // console.log("buttonclicked");
+//     if (currentClass == "hide_list") {
+//       headerClick.className = "show_list";
+//     }  else {
+//       headerClick.className = "hide_list";
+//     }
+//   });
+// }
 
 
 
 
-
-
-//ANOTHER FAILED ATTEMPT
+//ANOTHER ATTEMPT
 // function changeClassName (){                               creating a function to change class
 //   var headerClick = document.getElementsById("header1");   added ID to HTML in hopes to grab the ID and change class
 //   var currentClass = headerClick.className;                create variable currentclass to check which class is currently on element
