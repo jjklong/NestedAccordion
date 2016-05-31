@@ -1,10 +1,24 @@
 //after making an array, trying to determine class name and add event listener to each item. when clicked, checks to see classname
 
+//REALLY THOUGHT THIS WAS CLOSE
+var headerList = document.getElementsByClassName("main_list");
+headerList.addEventListener("click", function(changeClassName){
+function changeClassName(){
+  var headerClick = document.getElementsByClassName("hide_list");
+  var currentClass = headerClick.className;
+  if (currentClass == "hide_list") {
+    headerClick.className = "show_list";
+  } else {
+    headerClick.className = "hide_list";
+  }
+}});
 
-var headerList = document.getElementsByClassName('hide_list');
-headerList.addEventListener("click", function(event) {
-  if ()
-})
+
+
+// var headerList = document.getElementsByClassName('hide_list');
+// headerList.addEventListener("click", function(event) {
+//   if ()
+// })
 
 
 // for (i=0; i < headerList.length; i++) {
