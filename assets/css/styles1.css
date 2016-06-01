@@ -101,6 +101,11 @@ h1.header1{
   transform: rotateZ(45deg);
 }
 
+.sm-fa-down{
+  color: #47a3da;
+  transform: rotateZ(90deg);
+}
+
 .fa-lg {
   font-size: 1em;
   padding: .05em .05em 0.2em .1em;
@@ -120,7 +125,7 @@ h3.header3{
 }
 
 .sublist_oatCake{
-  display:none;
+  display: none;
 }
 
 .sub_show{

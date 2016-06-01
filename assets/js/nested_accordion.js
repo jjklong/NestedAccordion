@@ -5,7 +5,7 @@ $(function (){
 //When the header is clikced, toggle the next div to .show_list
 $('.headLi').on('click', function () {
   $(this).next('div').slideToggle('.show_list');
-  $('.fa').toggleClass('fa-down');
+  $('.fa-2x').toggleClass('fa-down');
 });
 
 //Only allows 2 clicks before the function doesn't work anymore
@@ -35,6 +35,7 @@ $('.headLi').on('click', function () {
 //TOGGLE SUBLIST TO SHOW/HIDE CSS WHEN CLICKED//
 $('.r_smallArrowblock').on('click', function () {
   $(this).next('div').slideToggle('.sub_show');
+  $('.fa-lg').toggleClass('sm-fa-down');
 });
 
 /////////////////////////////////
