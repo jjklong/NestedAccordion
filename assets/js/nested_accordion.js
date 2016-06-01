@@ -15,6 +15,7 @@ function changeClassName(){
 
 
 
+
 // var headerList = document.getElementsByClassName('hide_list');
 // headerList.addEventListener("click", function(event) {
 //   if ()
@@ -32,7 +33,7 @@ function changeClassName(){
 //     }
 //   });
 // }
-
+// this.nextElementSibling.classList.toggle("show");
 
 
 
