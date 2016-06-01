@@ -8,6 +8,13 @@ $('.headLi').on('click', function () {
   $('.fa-2x').toggleClass('fa-down');
 });
 
+
+//DIDN'T SINGLE OUT EACH CLICK
+// $('.headLi').on('click', function () {
+//   $(this).next('div').slideToggle('.show_list');
+//   $('div.rightArrowblock > .fa-2x').toggleClass('fa-down');
+// });
+
 //Only allows 2 clicks before the function doesn't work anymore
 // $('.headLi').click(function () {
 //   $(this).next('div').removeClass('hide_list').addClass('show_list');
@@ -35,7 +42,7 @@ $('.headLi').on('click', function () {
 //TOGGLE SUBLIST TO SHOW/HIDE CSS WHEN CLICKED//
 $('.r_smallArrowblock').on('click', function () {
   $(this).next('div').slideToggle('.sub_show');
-  $('.fa-lg').toggleClass('sm-fa-down');
+  $('.fa-lg').first().toggleClass('sm-fa-down');
 });
 
 /////////////////////////////////
